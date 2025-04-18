@@ -26,6 +26,7 @@ def generate_email_address(name):
     payload = {
         "address": address,
         "goto": cfg.dest_mailbox,
+        "active": "1"
     }
     headers = {
         "X-API-Key": cfg.mailcow_api_key,
