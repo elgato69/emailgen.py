@@ -1,0 +1,11 @@
+#base domain to create addresses for. change to your own domain
+BASE_DOMAIN: example.com
+
+#the public-facing address of your mailcow instance
+MAILCOW_ENDPOINT: mailcow.example.com
+
+#api key for your mailcow user
+MAILCOW_API_KEY: 000000-000000-000000-000000-000000
+
+#the destination mailbox for the alias, since this script works by creating aliases and not full mailboxes
+DEST_MAILBOX: tempmail@example.com
