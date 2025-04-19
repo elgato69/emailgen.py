@@ -47,7 +47,7 @@ def initialize():
     global cfg
     parser = argparse.ArgumentParser(
         prog="emailgen.py",
-        description="Generate new random email addresses on mail.lmoss.co.za"
+        description="Generate new random email addresses on a mailcow server"
     )
 
     parser.add_argument(
